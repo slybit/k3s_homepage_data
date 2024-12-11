@@ -1,0 +1,139 @@
+# Icons: https://github.com/walkxcode/dashboard-icons
+
+- Servers:
+  - Proxmox:
+      icon: proxmox.svg
+      href: https://pve.home:8006/
+      description: Proxmox server
+      widget:
+          type: proxmox
+          url: https://pve.home:8006
+          username: "prometheus@pve!homepage"
+          password: "10e8c062-57b4-4b4b-897b-9fc6941b5f6d"
+          node: pve
+  - QNAP:
+      icon: mdi-nas-#9EB8F8
+      href: http://nas.home:8080
+      description: QNAP NAS
+      widget:
+        type: qnap
+        url: http://nas.home:8080
+        username: admin
+        password: jiwmv37g
+
+- Containers:
+  - K3S:
+      icon: kubernetes-dashboard.svg
+      href: https://dashboard.k3s.home      
+      description: Kubernetes dashboard
+  - Registry:
+      icon: mdi-docker-#A4C46A
+      href: https://registry.k3s.home
+      description: Local docker registry
+      
+- Networking:
+  - AdGuard Home:
+      icon: adguard-home.svg
+      href: http://192.168.1.6
+      description: AdGuard Home DNS server
+      widget:
+        type: adguard
+        url: http://192.168.1.6
+        username: admin
+        password: jiwmv37g
+  - UniFi:
+      icon: unifi.svg
+      href: https://unificontroller.home/network
+      description: Unifi network controller
+#      widget:
+#        type: unifi
+#        url: https://unificontroller.home/
+#        username: homepage
+#        password: Homepage1234!
+  - Traefik:
+      icon: traefik.svg
+      href: https://traefik.k3s.home/dashboard/
+      description: Traefik dashboard
+      widget:
+        type: traefik
+        url: https://traefik.k3s.home
+  - Uptime Robot:
+        icon: https://play-lh.googleusercontent.com/cUrv0t00FYQ1GKLuOTvv8qjo1lSDjqZC16IOp3Fb6ijew6Br5m4o16HhDp0GBu_Bw8Y=w240-h480-rw
+        href: https://dashboard.uptimerobot.com
+        description: Uptime Robot
+        widget:
+            type: uptimerobot
+            url: https://api.uptimerobot.com
+            key: ur2019948-699041b3fce0917a5e963e61
+
+- House Stuff:
+  - Scripts4MQTT:
+      icon: mdi-cogs-#E1A3EE
+      href: https://scripts4mqtt.k3s.home
+      description: Automation for MQTT      
+  - Home Assistant - Old:
+      icon: home-assistant.svg
+      href: http://hassio.jules.home
+      description: Home Assistent
+  - Home Assistant - New:
+      icon: home-assistant.svg
+      href: http://hassio.home:8123
+      description: Home Assistent
+  - Filebrowser:
+      icon: filebrowser.svg
+      href: http://hassio.home:8080
+      description: Web based file manager (for Home Assistant config editing)
+  - eTracker:
+      icon: mdi-home-lightning-bolt-#E1A3EE
+      href: https://etracker.k3s.home
+      description: Track house energy consumption
+  - Unifi Protect:
+      icon: mdi-video-vintage-#0CCFC0
+      href: https://unificontroller.home/protect/
+      description: Web interface to manage Unifi cameras
+
+      
+- Monitoring:
+  - Grafana:
+      icon: grafana.svg
+      href: https://grafana.k3s.home
+      description: The open observability platform
+      widget:
+        type: grafana
+        url: https://grafana.k3s.home
+        username: admin
+        password: jiwmv37g
+  - Prometheus:
+      icon: prometheus.svg
+      href: https://prometheus.k3s.home
+      description: Prometheus
+      widget:
+        type: prometheus
+        url: https://prometheus.k3s.home
+  - Kibana:
+      icon: kibana.svg
+      href: http://kibana.elastic.home
+      description: Kibana
+      
+      
+- Other:
+  - MQTT Tree:
+      icon: mdi-file-tree-#E1A3EE
+      href: https://mqtttree.k3s.home
+      description: Simple enumeration of all MQTT topics
+  - MQTT Board:
+      icon: mdi-message-outline-#E1A3EE
+      href: http://mqttboard.k3s.home
+      description: Simple MQTT web interface
+  - Vault:
+      icon: vault.svg
+      href: https://vault.k3s.home
+      description: Hashicorp Vault
+  - Change Detection:
+      description: Notifies on changes in web sites
+      href: https://changedetection.k3s.home
+      icon: mdi-set-right-#9EB8F8
+      widget:
+        type: changedetectionio
+        url: https://changedetection.k3s.home
+        key: e8c2fff747249af519018fa1855f6871

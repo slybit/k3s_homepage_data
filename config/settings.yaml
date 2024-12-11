@@ -1,0 +1,30 @@
+title: Welcome to the awesome home server
+base: https://homepage.k3s.home/
+background: 
+  image: /images/background.jpeg
+    #  blur: sm # sm, md, xl... see https://tailwindcss.com/docs/backdrop-blur
+#  saturate: 100 # 0, 50, 100... see https://tailwindcss.com/docs/backdrop-saturate
+  brightness: 50 # 0, 50, 75... see https://tailwindcss.com/docs/backdrop-brightness
+  opacity: 100 # 0-100
+favicon: /images/favicon.svg
+
+theme: dark
+headerStyle: clean
+color: slate
+
+useEqualHeights: true
+
+layout:
+  House Stuff:
+  Monitoring:
+  Networking:
+  Other:
+  Servers:
+#    style: row
+#    columns: 4
+  Containers:
+#    style: row
+#    columns: 4
+  Links:
+#    style: row
+#    columns: 4

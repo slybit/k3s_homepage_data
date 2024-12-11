@@ -1,0 +1,15 @@
+---
+# For configuration options and examples, please see:
+# https://gethomepage.dev/latest/configs/bookmarks
+
+- Links:
+    - Wiki:
+        - abbr: WK
+          href: https://wiki.slybit.org
+          description: Personal Wiki
+          icon: mdi-file-document-edit-#82CAFF
+    - Git:
+        - abbr: GIT
+          href: https://git.slybit.org
+          description: Personal git server
+          icon: gitea.svg
